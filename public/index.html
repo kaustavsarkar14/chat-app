@@ -13,15 +13,14 @@
         <button type="submit" id="submit" >Go to chat</button>
     </form>
     <div class="chatContainer">
-        <div class="chatArea">
-            <div class="sentMsg" >hi</div>
-            <div class="receivedMsg" >Hello</div>
+        <div class="chatArea" id="chatArea">
         </div>
-        <div class="inputDiv">
-            <input type="text" id="messegeInput">
-            <button id="sendButton" >Send</button>
-        </div>
+        <form class="inputDiv">
+            <input type="text" id="messageInput">
+            <button id="sendButton" type="submit" >Send</button>
+        </form>
     </div>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"></script>
     <script src="script.js" ></script>
 </body>
 </html>
